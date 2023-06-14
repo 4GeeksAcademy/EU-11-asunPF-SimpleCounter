@@ -8,5 +8,19 @@
     other sylesheets into your bunde as well, e.j:
     
     import 'relative/path/to/stylesheet.scss';
-
 */
+
+.counter {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: black;
+    display: inline-block;
+    font-size: 60px;
+    align-items: center;
+    color: white;
+  
+   
+    
+}
+
