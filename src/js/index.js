@@ -6,9 +6,14 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import App from "./component/home.jsx";
+import SimpleCounter from "./component/SimpleCounter.jsx";
 
-//render your react application
-ReactDOM.render(<App />, document.querySelector("#app"));
+let counter = 0
 
+setInterval (() => {
+    
+
+ReactDOM.render(<SimpleCounter number = {counter} />, document.querySelector("#app"));
+counter ++
+}, 1000);
 
